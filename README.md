@@ -11,3 +11,6 @@
 7. Replacing useState with useReducer / Installing use-reducer-logger
 8. Installing react-bootstrap / react-router-bootstrap
 9. Changing App.js accordingly
+10. Imported Fontawesome via CDN-Link
+11. 2 new Components: Product & Rating (based on 5 stars)
+12. Change Home styles to bootstrap
