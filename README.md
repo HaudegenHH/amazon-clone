@@ -8,3 +8,4 @@
 4. Installing Express & Nodemon, creating a server on port 5000 and a path ('api/products') which serves the products json data
 5. Installing Axios / setting a proxy in (frontends) package.json
 6. Fetch Products from backend
+7. Replacing useState with useReducer / Installing use-reducer-logger
