@@ -14,3 +14,5 @@
 10. Imported Fontawesome via CDN-Link
 11. 2 new Components: Product & Rating (based on 5 stars)
 12. Change Home styles to bootstrap
+13. Create / style Product Details Screen
+14. Installing react-helmet-async (for displaying the product name on tab-title)
