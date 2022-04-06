@@ -5,3 +5,4 @@
 1. Installing React
 2. Create Git Repository / Sync with VSCode
 3. Installing 'react-router-dom' package & creating 2 Components/Routes (HomeScreen, ProductScreen)
+4. Installing Express & Nodemon, creating a server on port 5000 and a path ('api/products') which serves the products json data
