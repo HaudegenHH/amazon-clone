@@ -1,4 +1,4 @@
-# Amazon Clone with MERN STACK
+# Amazon Clone with MERN Stack
 
 ## Steps
 
@@ -17,3 +17,4 @@
 13. Create / style Product Details Screen
 14. Installing react-helmet-async (for displaying the product name on tab-title)
 15. Implemented react-helmet's functionality
+16. Adding Loading Spinner and a Message Alert Box (e.g. in case of network error)
