@@ -16,3 +16,4 @@
 12. Change Home styles to bootstrap
 13. Create / style Product Details Screen
 14. Installing react-helmet-async (for displaying the product name on tab-title)
+15. Implemented react-helmet's functionality
