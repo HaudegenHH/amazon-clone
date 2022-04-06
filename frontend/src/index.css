@@ -15,6 +15,12 @@ main {
   flex: 1;
 }
 
+.btn-primary {
+  background-color: #f0c040;
+  color: #111;
+  border: none;
+}
+
 .products {
   display: flex;
   justify-content: center;
@@ -34,4 +40,8 @@ main {
 .product .product-info {
   padding: 1rem;
   border-top: 1px solid #ccc;
+}
+
+.rating span {
+  color: #ffc000;
 }
