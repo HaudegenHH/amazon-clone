@@ -9,3 +9,5 @@
 5. Installing Axios / setting a proxy in (frontends) package.json
 6. Fetch Products from backend
 7. Replacing useState with useReducer / Installing use-reducer-logger
+8. Installing react-bootstrap / react-router-bootstrap
+9. Changing App.js accordingly
