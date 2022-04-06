@@ -10,6 +10,8 @@ import Badge from 'react-bootstrap/Badge';
 import ListGroup from 'react-bootstrap/ListGroup';
 import Rating from '../components/Rating';
 import ListGroupItem from 'react-bootstrap/esm/ListGroupItem';
+import LoadingBox from '../components/LoadingBox';
+import MessageBox from '../components/MessageBox';
 
 const reducer = (state, action) => {
   switch (action.type) {
@@ -48,9 +50,9 @@ function ProductScreen() {
   }, [slug]);
 
   return loading ? (
-    <div>Loading...</div>
+    <LoadingBox />
   ) : error ? (
-    <div>error</div>
+    <MessageBox variant="danger">{error}</MessageBox>
   ) : (
     <div>
       <Row>
