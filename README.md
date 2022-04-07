@@ -21,6 +21,7 @@
 17. Adding utils.js for custom fn like getError (to display the correct error message)
 18. Create react context / Store.js (to save shopping cart items)
 19. Adding the "add to cart" functionality / changing from slug to id
+20. Creating the Shopping Cart Page / 2 Columns: list of items and action column
 
 ## Follow my progess by
 
