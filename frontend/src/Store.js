@@ -11,15 +11,16 @@ const initialState = {
 function reducer(state, action) {
   switch (action.type) {
     case 'CART_ADD_ITEM':
-      // with help of spread operator (essentially): keep all prev values of state, and just
-      // update cartItems (new value is in action.payload)
-      return {
-        ...state,
-        cart: {
-          ...state.cart,
-          cartItems: [...state.cart.cartItems, action.payload],
-        },
-      };
+      const newItem = action.payload;
+      const existItem = state.cart.cartItems.find(
+        (item) => item._id === newItem._id
+      );
+      const cartItems = existItem
+        ? state.cart.cartItems.map((item) =>
+            item._id === existItem._id ? newItem : item
+          )
+        : [...state.cart.cartItems, newItem];
+      return { ...state, cart: { ...state.cart, cartItems } };
     default:
       return state;
   }

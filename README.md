@@ -20,6 +20,7 @@
 16. Adding Loading Spinner and a Message Alert Box (e.g. in case of network error)
 17. Adding utils.js for custom fn like getError (to display the correct error message)
 18. Create react context / Store.js (to save shopping cart items)
+19. Adding the "add to cart" functionality / changing from slug to id
 
 ## Follow my progess by
 
