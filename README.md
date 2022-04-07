@@ -19,3 +19,14 @@
 15. Implemented react-helmet's functionality
 16. Adding Loading Spinner and a Message Alert Box (e.g. in case of network error)
 17. Adding utils.js for custom fn like getError (to display the correct error message)
+18. Create react context / Store.js (to save shopping cart items)
+
+## Follow my progess by
+
+1. Downloading / Cloning the repo
+2. Then open your terminal/gitbash/power or z-shell and inside the frontend folder type
+   npm start
+3. Then start a new Terminal, navigate to backend folder and type
+   npm start
+   ...again (to start the Express server)
+4. Type in your browsers' address bar: 'http://localhost:3000'
