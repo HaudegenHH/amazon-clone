@@ -18,3 +18,4 @@
 14. Installing react-helmet-async (for displaying the product name on tab-title)
 15. Implemented react-helmet's functionality
 16. Adding Loading Spinner and a Message Alert Box (e.g. in case of network error)
+17. Adding utils.js for custom fn like getError (to display the correct error message)
